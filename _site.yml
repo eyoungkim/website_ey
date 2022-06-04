@@ -1,0 +1,24 @@
+name: "my-website"
+navbar:
+  title: "Eun Young Kim"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "My Research"
+      href: mybook.html
+    - text: "R Practice"
+      href: rprac.html
+    - text: "CV"
+      href: cv.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<euk27@pitt.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/eyoungkim/
+    - icon: fa-twitter
+      href: http://github.com/eyoungkim/
+
+output:
+  html_document
+  
+output_dir: docs
